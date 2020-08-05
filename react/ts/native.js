@@ -12,7 +12,7 @@ module.exports = {
 				"prettier/@typescript-eslint",
 				"plugin:react/recommended",
 				"plugin:@typescript-eslint/recommended",
-				"plugin:react-native-a11y/recommended",
+				"plugin:react-native-a11y/all",
 				"plugin:import/typescript"
 		],
 		globals: {
