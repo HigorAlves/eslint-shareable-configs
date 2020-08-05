@@ -53,7 +53,7 @@ module.exports = {
 				'warn',
 				{
 					newlinesBetween: "always",
-					groups: ["/react/", "/ˆreact/", "module","/ˆ@/", "/^assets/", "/^pages/", "/^containers/", "/^components/","/^store/", "/^lib/", ["parent", "sibling", "index"]],
+					groups: ["/react/", "/ˆreact/", "module","/ˆ@/", "/^Assets/", "/^Views/", "/^Containers/", "/^Components/","/^Store/", "/^Lib/", ["parent", "sibling", "index"]],
 					alphabetize: { "order": "asc", "ignoreCase": true }
 				}
 			]

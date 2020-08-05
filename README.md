@@ -28,7 +28,8 @@ Para incluir no projeto, crie o arquivo .eslintrc com a seguinte config:
 
 Para usar com [ReactJS](https://reactjs.org/)
 ```
-@higoralves/eslint-config/react/js
+@higoralves/eslint-config/react/ts/js
+@higoralves/eslint-config/react/ts/native
 ```
 
 ## Regras adicionadas
