@@ -9,8 +9,8 @@ module.exports = {
 		'plugin:react/recommended',
 		'plugin:react-hooks/recommended',
 		'plugin:prettier/recommended',
-		"plugin:import/typescript",
-		"plugin:storybook/recommended",
+		'plugin:import/typescript',
+		'plugin:storybook/recommended',
 		'standard',
 	],
 	parser: '@typescript-eslint/parser',
@@ -31,13 +31,13 @@ module.exports = {
 	],
 	rules: {
 		'prettier/prettier': ["error", {
-			'printWidth': 80,
-			'tabWidth': 2,
-			'singleQuote': true,
-			'trailingComma': 'all',
-			'arrowParens': 'always',
-			'semi': false,
-			'endOfLine': 'auto',
+			printWidth: 80,
+			tabWidth: 2,
+			singleQuote: true,
+			trailingComma: 'all',
+			arrowParens: 'always',
+			semi: false,
+			endOfLine: 'auto',
 		}],
 		'react/react-in-jsx-scope': 'off',
 		'react/prop-types': 'off',
@@ -56,24 +56,24 @@ module.exports = {
 		"import/order": [
 			"error",
 			{
-				"groups": ["builtin", "external", "internal"],
-				"pathGroups": [
+				groups: ["builtin", "external", "internal"],
+				pathGroups: [
 					{
-						"pattern": "react",
-						"group": "external",
-						"position": "before"
+						pattern: "react",
+						group: "external",
+						position: "before"
 					},
 					{
-						"pattern": "next",
-						"group": "external",
-						"position": "before"
+						pattern: "next",
+						group: "external",
+						position: "before"
 					}
 				],
-				"pathGroupsExcludedImportTypes": ["react"],
+				pathGroupsExcludedImportTypes: ["react"],
 				"newlines-between": "always",
-				"alphabetize": {
-					"order": "asc",
-					"caseInsensitive": true
+				alphabetize: {
+					order: "asc",
+					caseInsensitive: true
 				}
 			}
 		]
@@ -84,6 +84,7 @@ module.exports = {
 		},
 		'import/parsers': {
 			[require.resolve('@typescript-eslint/parser')]: ['.ts', '.tsx', '.d.ts'],
+			[require.resolve('plugin:import/typescript')]: ['.ts', '.tsx', '.d.ts'],
 		},
 	}
 }
