@@ -1,40 +1,28 @@
 # @higoralves Style Guide
 
-A versão desse style guide para `React` é baseado no Airbnb's. Disponível em português [aqui](https://github.com/ronal2do/airbnb-react-styleguide).
+## Whats included?
 
-## Instalando
+- Standard config base;
+- React plugin;
+- React Hooks plugin;
+- JSX a11y plugin;
+- Prettier;
+- Import order
+- Storybook Plugin
+- Promise plugin
 
-Usando yarn:
+## Setup
 
-```bash
-yarn add -D @higoralves/eslint-config
-```
-
-Usando npm:
+Install the dependencies
 
 ```bash
 npm i --save-dev @higoralves/eslint-config
 ```
 
-Para incluir no projeto, crie o arquivo .eslintrc com a seguinte config:
+Create a `.eslintrc.json` file extending the config:
 
 ```json
 {
-  "extends": ["@higoralves/eslint-config/<configuração-sua-escolha>"]
+  "extends": ["@higoralves/eslint-config/<react | node>"]
 }
 ```
-
-## Configurações disponiveis
-
-Para usar com [ReactJS](https://reactjs.org/)
-```
-@higoralves/eslint-config/react/ts/js
-@higoralves/eslint-config/react/ts/native
-```
-
-## Regras adicionadas
-
-> em construição
-
-## Contribuição
-Sinta-se a vontade para abrir uma PR
