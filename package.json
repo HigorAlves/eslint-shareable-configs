@@ -1,6 +1,6 @@
 {
   "name": "@higoralves/eslint-config",
-  "version": "0.3.2",
+  "version": "0.3.3",
   "main": "index.js",
   "description": "ESLint configuration used by Higor Alves",
   "author": "higoralves",
@@ -11,11 +11,12 @@
   },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^5.51.0",
-    "@typescript-eslint/parser": "^5.51.0",
+    "@typescript-eslint/parser": "^5.53.0",
     "add": "^2.0.6",
     "eslint": "^7.23.0 || ^8.0.0",
     "eslint-config-prettier": "^8.6.0",
     "eslint-config-standard": "^17.0.0",
+    "eslint-import-resolver-typescript": "^3.5.3",
     "eslint-plugin-import": "^2.27.5",
     "eslint-plugin-jsx-a11y": "^6.7.1",
     "eslint-plugin-n": "^15.6.1",

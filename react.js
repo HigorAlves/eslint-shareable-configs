@@ -30,6 +30,13 @@ module.exports = {
 		'testing-library'
 	],
 	rules: {
+		'jsx-a11y/aria-props': 'warn',
+		'jsx-a11y/aria-proptypes': 'warn',
+		'jsx-a11y/aria-unsupported-elements': 'warn',
+		'jsx-a11y/role-has-required-aria-props': 'warn',
+		'jsx-a11y/role-supports-aria-props': 'warn',
+		'react/react-in-jsx-scope': 'off',
+		'react/prop-types': 'off',
 		'prettier/prettier': ["error", {
 			printWidth: 80,
 			tabWidth: 2,
@@ -39,8 +46,6 @@ module.exports = {
 			semi: false,
 			endOfLine: 'auto',
 		}],
-		'react/react-in-jsx-scope': 'off',
-		'react/prop-types': 'off',
 		'jsx-a11y/alt-text': [
 			'warn',
 			{
@@ -48,11 +53,6 @@ module.exports = {
 				img: ['Image'],
 			},
 		],
-		'jsx-a11y/aria-props': 'warn',
-		'jsx-a11y/aria-proptypes': 'warn',
-		'jsx-a11y/aria-unsupported-elements': 'warn',
-		'jsx-a11y/role-has-required-aria-props': 'warn',
-		'jsx-a11y/role-supports-aria-props': 'warn',
 		"import/order": [
 			"error",
 			{
