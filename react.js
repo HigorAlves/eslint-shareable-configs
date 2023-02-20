@@ -84,7 +84,6 @@ module.exports = {
 		},
 		'import/parsers': {
 			[require.resolve('@typescript-eslint/parser')]: ['.ts', '.tsx', '.d.ts'],
-			[require.resolve('plugin:import/typescript')]: ['.ts', '.tsx', '.d.ts'],
 		},
 	}
 }

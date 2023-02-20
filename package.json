@@ -1,6 +1,6 @@
 {
   "name": "@higoralves/eslint-config",
-  "version": "0.3.3",
+  "version": "0.3.4",
   "main": "index.js",
   "description": "ESLint configuration used by Higor Alves",
   "author": "higoralves",
